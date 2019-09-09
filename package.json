@@ -1,0 +1,31 @@
+{
+  "name": "latest-browsers-api",
+  "version": "1.0.0",
+  "description": "API to get the latest stable browsers version",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "now dev",
+    "deploy": "now",
+    "deploy:prod": "now --prod",
+    "lint": "eslint ./**/*.js"
+  },
+  "keywords": [],
+  "author": "Magno Biét <magno.biet@gmail.com> (https://magnobiet.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "caniuse-api": "^3.0.0",
+    "micro-cors": "^0.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "@now/node": "^1.0.0",
+    "eslint": "^6.3.0",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "now": "^16.2.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
